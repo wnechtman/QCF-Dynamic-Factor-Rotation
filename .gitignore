@@ -1,3 +1,5 @@
+.DS_Store
+
 *.bundle.*
 lib/
 node_modules/
