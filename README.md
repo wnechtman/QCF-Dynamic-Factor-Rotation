@@ -6,8 +6,8 @@ John Crist, Walker Hills, Walter Mitchell, Wyatt Nechtman
 
 ## Directory List
 
->- Code
->- Docs
->- Figures
->- Midterm
->- Outputs
+- Code
+- Docs
+- Figures
+- Midterm
+- Outputs
