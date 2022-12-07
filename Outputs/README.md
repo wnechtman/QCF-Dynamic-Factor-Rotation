@@ -1,1 +1,3 @@
 # Outputs
+
+Some code outputs.
