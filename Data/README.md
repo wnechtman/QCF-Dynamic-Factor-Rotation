@@ -1,6 +1,6 @@
 # Data
 
-Here is a list of data files (not exhaustive as we read from online often) and brief description:
+Here is a list of data files (not exhaustive as we read from online often) used for the project:
 
 - 6_Portfolios_ME_Prior_12_2.CSV
 - apple_factor_returns.csv

@@ -1,6 +1,6 @@
 # Code
 
-Here is a list of the code and a brief description of each file:
+Here is a list of code for the project:
 
 - Beta_Tests.ipynb
 - Bizz_cycle_v2.ipynb
