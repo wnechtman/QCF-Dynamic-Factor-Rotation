@@ -1,10 +1,16 @@
+# Support Functions for downloading data
+
 import pandas as pd
 import warnings
 
+
+# Get fama french data
 def fama_french(from_web=True, since_y=None) -> pd.DataFrame:
+    # From web
     if from_web:
         ff5_url = "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_CSV.zip"
         data = pd.read_csv(ff5_url, skiprows=2).iloc[:-60, :]
+    # Or from local file
     if not from_web:
         data = pd.read_csv("/Users/wyattnechtman/Documents/TECH/Fall2022/MGT6785/Project/Data/F-F_Research_Data_5_Factors_2x3.csv", skiprows=12).iloc[:-99, :]
 
@@ -37,6 +43,7 @@ def fama_french(from_web=True, since_y=None) -> pd.DataFrame:
     data = data[since_y:]
     return data
 
+# Sets to first of month
 def set_first(df, inplace=False):
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")

@@ -1,3 +1,5 @@
+# Support functions for downloading macros
+
 import pandas as pd
 import statsmodels as sm
 from sklearn.decomposition import PCA
